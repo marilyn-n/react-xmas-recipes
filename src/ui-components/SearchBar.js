@@ -5,7 +5,7 @@ function SearchBar() {
       <h3>Find a Recipe</h3>
       <form className="search__form">
         <input type="text" placeholder="Search something delicious"/>
-        <input type="submit" value="go"/>
+        <button type="submit"><i class="fas fa-search"></i></button>
       </form>
     </div>
   );
