@@ -1,6 +1,10 @@
 .search {
   text-align: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
+  h3 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
   &__form {
 
     input[type="text"] {
@@ -14,7 +18,7 @@
     }
 
     button[type="submit"] {
-      padding: .75rem;
+      padding: .75rem 1rem;
       margin-left: .5rem;
       border-radius: 50%;
       background-color: white;
@@ -23,7 +27,7 @@
       cursor: pointer;
       outline: none;
       i {
-        color: #086554;
+        color: black;
       }
     }
   }
