@@ -11,6 +11,18 @@
         position: absolute;
         right: 0;
         margin: .5rem;
+        cursor: pointer;
+    }
+    
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__rating {
+        .fa-star {
+            color: orange;
+            font-size: .75rem;
+        }
     }
 }
 
