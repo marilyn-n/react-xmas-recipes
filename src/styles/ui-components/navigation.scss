@@ -12,4 +12,15 @@
     color: #f81307;
     cursor: pointer;
   }
+
+  .nav {
+    .nav-item {
+      .nav-link {
+        color: black;
+        &:active, &:hover {
+          color: rgb(77, 77, 77);
+        }
+      }
+    }
+  }
 }
