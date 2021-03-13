@@ -2,15 +2,19 @@
   height: 20rem;
   box-shadow: inset -3px 0px 20px 0px rgba(0, 0, 0, 0.2);
   background-color: #015a63;
-  // background: linear-gradient(308deg, rgba(0,69,100,1) 0%, rgba(0,180,119,1) 50%, rgba(0,76,40,1) 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   h1 {
     color: white;
     font-weight: bold;
   }
 
   .search-bar {
+    width: 100%;
     text-align: center;
-    padding: 4rem 2rem;
     &__form {
   
       input[type="text"] {

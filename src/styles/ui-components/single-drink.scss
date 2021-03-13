@@ -1,0 +1,30 @@
+.drink {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    &:hover {
+        filter: brightness(.75);
+        transition: all .4s;
+        cursor: pointer;
+    }
+
+    &__image {
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 1rem;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+
+    &__text {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        &--title {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+    }
+}

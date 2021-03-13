@@ -1,10 +1,10 @@
 .card { 
     width: 13.5rem;
     margin-right: 1rem;
-}
+    border: none;
 
-.recipe {
-    position: relative;
+    &__thumbnail {}
+
     &--like {
         font-size: 1.4rem;
         color: white;
@@ -13,17 +13,22 @@
         margin: .5rem;
         cursor: pointer;
     }
-    
-    &__title {
-        margin-bottom: 0;
-    }
 
-    &__rating {
-        .fa-star {
-            color: orange;
-            font-size: .75rem;
+    &__content {
+        padding: .75rem;
+        &--title {
+            margin-bottom: 0;
         }
-    }
-}
 
+        &--rating {
+            .fa-star {
+                color: orange;
+                font-size: .75rem;
+            }
+        }
+
+        &--paragraph {}
+    }
+
+}
     
