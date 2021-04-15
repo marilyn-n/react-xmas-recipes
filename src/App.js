@@ -3,7 +3,10 @@ import './styles/main.scss';
 import Navigation from './ui-components/Navigation';
 import SearchBar from './ui-components/SearchBar';
 import Card from './ui-components/Card';
+import Button from './ui-components/Button';
 import SingleDrink from './ui-components/SingleDrink';
+
+import thumbnail from './assets/placeholder-image.png';
 
 function App() {
   return (
@@ -38,6 +41,18 @@ function App() {
             <Card/>
             <Card/>
           </div>
+        </div>
+      </div>
+      <div className="explore-more">
+        <div className="explore-more__content">
+          <span className="explore-more__content--title">Get to know more recipes</span>
+          <p className="explore-more__content--paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          </p>
+          <Button/>
+        </div>
+        <div className="explore-more__thumbnail">
+          <img src={thumbnail}/>
         </div>
       </div>
     </div>

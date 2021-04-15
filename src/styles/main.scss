@@ -3,6 +3,7 @@
 @import './ui-components/search-bar.scss';
 @import './ui-components/card.scss';
 @import './ui-components/single-drink.scss';
+@import './ui-components/button.scss';
 
 
 h3 {
@@ -16,3 +17,35 @@ h3 {
   .trending-recipes {
       background-color: honeydew;
   }
+
+ .explore-more {
+   padding: 3rem;
+   display: flex;
+   flex-direction: row;
+
+   &__content {
+    text-align: center;
+    align-self: center;
+    font-size: 1.25rem;
+
+    &--title {
+      display: block;
+      font-weight: 500;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+
+    }
+
+   }
+
+   &__thumbnail {
+    margin-left: 2rem;
+    img {
+      height: auto;
+      width: 100%;
+      display: flex;
+      object-fit: cover;
+    }
+     
+   }
+ }
